@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     }
     @IBAction func buttonTapped(_ sender: Any) {
         AppCenterCrashes.Crashes.generateTestCrash()
+        print("This is for CI Demo by PR, trigger a build each time commit done!")
     }
     
 }
